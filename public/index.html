@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bjørn Torleiv Wahl — UI/UX Designer</title>
+  <meta name="description" content="Portfolio of Bjørn Torleiv Wahl — UI/UX Designer available for hire." />
+  <meta name="theme-color" content="#0a0a0b" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
+  <link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+  <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+</head>
+<body>
+
+  <!-- ===== HEADER / HERO ===== -->
+  <header class="hero" id="hero">
+    <div class="hero__blobs" aria-hidden="true">
+      <div class="hero__blob hero__blob--1"></div>
+      <div class="hero__blob hero__blob--2"></div>
+      <div class="hero__blob hero__blob--3"></div>
+    </div>
+    <div class="hero__glow-mouse" aria-hidden="true"></div>
+    <div class="hero__inner">
+      <div class="hero__top">
+        <div class="hero__avatar-ring" id="avatarRing">
+          <span class="hero__avatar-shimmer" aria-hidden="true"></span>
+          <img class="hero__avatar" id="avatar" src="" alt="" width="76" height="76" />
+        </div>
+        <div class="hero__status" id="heroStatus">
+          <span class="hero__status-dot" aria-hidden="true"></span>
+          <span class="hero__status-text">Available for work</span>
+        </div>
+      </div>
+      <div class="hero__headline">
+        <h1 class="hero__name" id="authorName"></h1>
+        <div class="hero__typing" aria-live="polite">
+          <!-- invisible sizer keeps height stable -->
+          <span class="hero__typing-sizer" id="typingSizer" aria-hidden="true"></span>
+          <span class="hero__typing-text" id="typingText"></span>
+          <span class="hero__cursor" aria-hidden="true"></span>
+        </div>
+      </div>
+      <p class="hero__bio" id="authorBio"></p>
+      <div class="hero__footer">
+        <a class="hero__cta" id="authorCta" href="#">
+          <span class="hero__cta-inner">
+            <span class="hero__cta-text">Hire me</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+          </span>
+        </a>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== MAIN ===== -->
+  <main id="main">
+    <!-- Toolbar: search + filters -->
+    <section class="toolbar" aria-label="Filter projects">
+      <div class="toolbar__inner">
+        <div class="toolbar__search-wrap">
+          <svg class="toolbar__search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input
+            class="toolbar__search"
+            id="search"
+            type="search"
+            placeholder="Search projects..."
+            aria-label="Search projects"
+          />
+        </div>
+        <div class="toolbar__filters" id="filters" role="group" aria-label="Filter by category"></div>
+      </div>
+    </section>
+
+    <!-- Project grid -->
+    <section class="projects" aria-label="Projects">
+      <div class="projects__grid" id="grid"></div>
+      <p class="projects__empty" id="emptyState" hidden>No projects match your search.</p>
+    </section>
+
+    <!-- Error state -->
+    <div class="error" id="errorState" hidden>
+      <p>Could not load portfolio data. Please try again later.</p>
+    </div>
+  </main>
+
+  <!-- ===== MODAL ===== -->
+  <div class="modal-overlay" id="modalOverlay" hidden>
+    <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal__close" id="modalClose" aria-label="Close">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      <div class="modal__image-wrap">
+        <img class="modal__image" id="modalImage" src="" alt="" />
+      </div>
+      <div class="modal__thumbs" id="modalThumbs" hidden></div>
+      <div class="modal__body">
+        <div class="modal__meta">
+          <span class="modal__category" id="modalCategory"></span>
+          <span class="modal__year" id="modalYear"></span>
+        </div>
+        <h2 class="modal__title" id="modalTitle"></h2>
+        <p class="modal__desc" id="modalDesc"></p>
+        <div class="modal__tags" id="modalTags"></div>
+        <div class="modal__accordion" id="modalAccordion"></div>
+        <div class="modal__links" id="modalLinks"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p id="footerCopy"></p>
+    <p class="footer__location" id="footerLocation"></p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

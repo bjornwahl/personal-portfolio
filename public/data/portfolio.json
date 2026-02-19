@@ -1,0 +1,341 @@
+{
+  "author": {
+    "name": "Bj\u00f8rn Torleiv Wahl",
+    "title": "UI/UX Specialist",
+    "bio": "Experienced in shaping digital products for leading Norwegian brands through practical design work, technical insight, and close collaboration across teams. Skilled in design systems, guiding teams, and connecting design with development.",
+    "avatar": "assets/avatar.jpg",
+    "location": "\ud83c\uddf3\ud83c\uddf4 Made in Norway",
+    "email": "bjorn.torleiv.wahl@gmail.com",
+    "ctaText": "Hire me",
+    "ctaUrl": "mailto:bjorn.torleiv.wahl@gmail.com?subject=Project%20Inquiry",
+    "roles": [
+      "UI/UX Specialist",
+      "Creative Problem Solver",
+      "Digital Designer",
+      "Certified Scrum Master",
+      "Hobby Photographer",
+      "A Nice Guy"
+    ]
+  },
+  "projects": [
+    {
+      "title": "NTB Design System",
+      "category": ["DESIGN SYSTEMS", "BRANDING"],
+      "year": 2026,
+      "image": "assets/project-1.jpg",
+      "gallery": ["assets/project-1.jpg"],
+      "description": "A scalable design system built to unify more than 15 applications under a shared foundation. It supports multi-tenancy and enables consistent user experiences, while making it easier for teams to design, build, and scale products efficiently.",
+      "tags": ["Multi-tennancy", "Shadcn", "Tailwind CSS"],
+      "links": [
+        {
+          "label": "Case Study",
+          "url": "#"
+        }
+      ],
+      "details": [
+        {
+          "heading": "My Role",
+          "body": "I led the design and implementation of the system, building on an existing component foundation and adapting it to fit the products’ needs. I created, refined, and documented over 100 components, and defined clear patterns and guidelines to ensure consistency. My role was to make the system practical, scalable, and easy for both designers and developers to use in their daily work."
+        },
+        {
+          "heading": "The Challenge",
+          "body": "The applications had grown independently, which led to inconsistent user experiences and duplicated effort across teams. There was no shared structure, making it harder to maintain quality and move efficiently. The system also needed to support multi-tenancy, which required components to be flexible without introducing unnecessary complexity."
+        },
+        {
+          "heading": "Results",
+          "body": "The design system established a shared foundation across more than 15 applications, improving consistency and reducing repeated work. It made it easier for teams to design and build new features, and improved collaboration between design and development. It also created a more scalable setup, making future improvements faster and more predictable"
+        }
+      ]
+    },
+    {
+      "title": "NTB Image Portal",
+      "category": ["WEB APPLICATIONS"],
+      "year": 2024,
+      "image": "assets/project-1.jpg",
+      "gallery": ["assets/project-1.jpg"],
+      "description": "A media marketplace platform used by multiple news agencies to sell and distribute digital assets to editorial and creative customers worldwide.",
+      "tags": ["Multi-tennancy", "B2B + B2C SaaS"],
+      "links": [
+        {
+          "label": "Case Study",
+          "url": "#"
+        }
+      ],
+      "details": [
+        {
+          "heading": "My Role",
+          "body": "I was responsible for designing the user experience and interface from the ground up. I defined the structure, core workflows, and visual direction of the platform, ensuring it was clear, efficient, and easy to use. I worked closely with product owners, developers, and stakeholders throughout the process to translate complex needs into practical solutions."
+        },
+        {
+          "heading": "The Challenge",
+          "body": "The platform needed to support multiple news agencies and a global audience, while handling large volumes of digital assets and complex licensing models. Starting from scratch meant every decision had to balance flexibility, usability, and scalability. The experience had to work equally well for different types of professional users who depend on speed and reliability."
+        },
+        {
+          "heading": "Results",
+          "body": "The result was a scalable and intuitive media marketplace that made it easy to browse, evaluate, and purchase digital assets. It gave news agencies a reliable platform to distribute their content, and customers a clear and efficient way to access it. Building it on a strong foundation also made it easier to maintain and expand as needs evolved."
+        }
+      ]
+    },
+    {
+      "title": "SDL Media Manager",
+      "category": ["WEB APPLICATIONS"],
+      "year": 2023,
+      "image": "assets/project-3.jpg",
+      "gallery": ["assets/project-3.jpg"],
+      "description": "Professional software for managing and distributing more than 400 million images and videos, used by news agencies to move content quickly and reliably, and serving as the backbone for other applications.",
+      "tags": ["B2B SaaS", "DAM", "Storage", "Editorial"],
+      "links": [
+        {
+          "label": "Case Study",
+          "url": "#"
+        }
+      ],
+      "details": [
+        {
+          "heading": "My Role",
+          "body": "I worked on improving the interface and overall usability of a platform used by news agencies to manage and distribute digital assets. I focused on making complex workflows easier to understand and use, and worked closely with developers and stakeholders to ensure the solutions fit real needs and existing workflows."
+        },
+        {
+          "heading": "The Challenge",
+          "body": "The platform handled more than 400 million images and videos and was a critical part of daily operations. Users needed to move fast and be able to trust the system. At the same time, it served as a backbone for other applications, which meant improvements had to be made without breaking integrations or disrupting how teams already worked."
+        },
+        {
+          "heading": "Results",
+          "body": "The updates made the platform easier to use and more efficient in everyday tasks. Users could find, manage, and distribute content with less friction, and the system became easier to maintain and build on. It also strengthened the foundation for the other products that depend on it."
+        }
+      ]
+    },
+    {
+      "title": "NTB Mediebank",
+      "category": ["WEB APPLICATIONS"],
+      "year": 2022,
+      "image": "assets/project-2.jpg",
+      "gallery": ["assets/project-2.jpg"],
+      "description": "A simple-to-use digital asset management system built for teams across industries, widely adopted in editorial media, with more than 40,000 active users and growing.",
+      "tags": ["B2B SaaS", "DAM", "Storage", "Editorial", "Commercial"],
+      "links": [
+        {
+          "label": "Case Study",
+          "url": "#"
+        }
+      ],
+      "details": [
+        {
+          "heading": "My Role",
+          "body": "I worked on improving the interface and overall usability, while also designing and shaping new features as the product evolved. Since it was a relatively new application, I spent a lot of time defining workflows, creating new functionality, and helping establish a clear and consistent foundation. I worked closely with developers and product stakeholders to ensure the solutions were practical and aligned with real user needs."
+        },
+        {
+          "heading": "The Challenge",
+          "body": "The system was used by teams across different industries, with editorial media as a major user group. It needed to be simple and intuitive, while still supporting complex workflows and large volumes of content. At the same time, many core features were still being defined, which required balancing speed, clarity, and long-term scalability."
+        },
+        {
+          "heading": "Results",
+          "body": "The work helped shape the product into a more complete and reliable platform. New features made it more useful in daily workflows, and improvements to the interface made it easier to learn and use. It also established a stronger and more consistent foundation, making future development faster and more predictable."
+        }
+      ]
+    },
+    {
+      "title": "AVA Eiendom",
+      "category": ["WEBSITES", "BRANDING"],
+      "year": 2021,
+      "image": "assets/project-2.jpg",
+      "gallery": ["assets/project-2.jpg"],
+      "description": "A refreshed brand and website that highlights the real estate agency’s strengths and presents it in a clear, modern way.",
+      "tags": ["Real estate", "Industry", "Tenant services"],
+      "links": [
+        {
+          "label": "Case Study",
+          "url": "#"
+        }
+      ],
+      "details": [
+        {
+          "heading": "My Role",
+          "body": "I designed the website and helped translate the refreshed brand into a clear and modern digital experience. This included shaping the structure, designing key pages, and making sure the visual direction reflected the agency’s identity. I worked closely with stakeholders to align the site with their goals and present the agency in a stronger way."
+        },
+        {
+          "heading": "The Challenge",
+          "body": "The existing website didn’t reflect the quality of the brand or the properties they worked with. Information was hard to navigate and the overall experience felt dated. The challenge was to create a more modern and credible presence, while making it easy for visitors to understand services and take the next step."
+        },
+        {
+          "heading": "Results",
+          "body": "The new website gave the agency a stronger and more professional digital presence. It presented information in a clearer way and made it easier to understand what the agency offers. The result was a more confident brand presentation that better supports attracting new clients."
+        }
+      ]
+    },
+    {
+      "title": "CP-foreningen Min side",
+      "category": ["WEB APPLICATIONS"],
+      "year": 2021,
+      "image": "assets/project-1.jpg",
+      "gallery": ["assets/project-1.jpg"],
+      "description": "A membership portal designed to manage and strengthen the relationship between the organization and its members.",
+      "tags": ["Patient organization", "Member support"],
+      "links": [
+        {
+          "label": "Case Study",
+          "url": "#"
+        }
+      ],
+      "details": [
+        {
+          "heading": "My Role",
+          "body": "I redesigned the existing membership portal with a focus on making it easier and more accessible for members to use. I improved the layout, navigation, and visual clarity, and adapted the design to work within the constraints of the existing system. The goal was to create a calmer, clearer experience that better reflected the organization and supported its members."
+        },
+        {
+          "heading": "The Challenge",
+          "body": "The portal was used by a patient organization, which made accessibility especially important. Members have different needs and levels of digital experience, and the existing solution was difficult to navigate and understand. Since the system itself could not be rebuilt, the improvements had to come through better structure, clearer design, and more thoughtful use of the interface."
+        },
+        {
+          "heading": "Results",
+          "body": "The redesign made the portal easier to use and more accessible for members. Information became easier to find, and the overall experience felt more clear and approachable. It helped make the portal a more useful and inclusive tool, and better supported the connection between the organization and its members."
+        }
+      ]
+    },
+    {
+      "title": "Danvik Folkehøgskole",
+      "category": ["WEBSITES"],
+      "year": 2020,
+      "image": "assets/project-1.jpg",
+      "gallery": ["assets/project-1.jpg"],
+      "description": "A website for a folk high school designed to attract new students by highlighting classes, trips, and student life, with clear, accessible information and a strong focus on driving applications.",
+      "tags": ["Education", "Convertion"],
+      "links": [
+        {
+          "label": "Case Study",
+          "url": "#"
+        }
+      ],
+      "details": [
+        {
+          "heading": "My Role",
+          "body": "I designed the website from the ground up, focusing on how to present the school in a clear and engaging way. I defined the structure, designed the key pages, and worked with content and visuals to highlight student life, classes, and trips. The goal was to create a site that felt honest, welcoming, and easy to navigate."
+        },
+        {
+          "heading": "The Challenge",
+          "body": "The website needed to speak directly to prospective students and help them understand what the school offers. A lot of information had to be presented, but without making it feel heavy or confusing. It was also important to guide users naturally toward applying, without forcing it."
+        },
+        {
+          "heading": "Results",
+          "body": "The new website made it easier to explore the school and get a real sense of the experience. Information became clearer, and the structure helped users move naturally toward applying. It gave the school a stronger digital presence and a better tool for attracting new students."
+        }
+      ]
+    },
+    {
+      "title": "Dipr",
+      "category": ["WEB APPLICATIONS", "BRANDING"],
+      "year": 2019,
+      "image": "assets/project-4.jpg",
+      "gallery": ["assets/project-4.jpg"],
+      "description": "An alternative to traditional local news, focused on in-depth journalism, a calmer pace, and a thoughtful reading experience. Built to foster a community, not just an audience. Recognized as a pioneer in its field.",
+      "tags": ["Editorial", "Publishing", "Convertion"],
+      "links": [
+        {
+          "label": "Case Study",
+          "url": "#"
+        }
+      ],
+      "details": [
+        {
+          "heading": "My Role",
+          "body": "I worked on both the branding and the design of the platform, shaping its identity and the reading experience from the ground up. This included defining the visual direction, designing key parts of the application, and ensuring the interface supported the editorial vision. My focus was on creating a calm, focused experience that put the content first."
+        },
+        {
+          "heading": "The Challenge",
+          "body": "The platform aimed to challenge traditional local news by slowing things down and focusing on quality over quantity. The design needed to reflect this approach and feel different from typical news sites, which are often crowded and driven by constant updates. It was important to create a reading experience that felt trustworthy, thoughtful, and worth spending time with."
+        },
+        {
+          "heading": "Results",
+          "body": "The result was a clear and distinct platform that supported long-form journalism and encouraged deeper engagement. The branding and interface helped communicate its identity and made the experience feel more focused and intentional. It contributed to establishing the platform as a credible and recognizable alternative in its field."
+        }
+      ]
+    },
+    {
+      "title": "Munitize",
+      "category": ["WEB APPLICATIONS", "BRANDING"],
+      "year": 2018,
+      "image": "assets/project-2.jpg",
+      "gallery": ["assets/project-2.jpg"],
+      "description": "A marketplace and payment solution that helps game servers earn from active players through in-game purchases of goods and services, with a simple and intuitive experience throughout.",
+      "tags": ["B2C SaaS", "Gaming", "Convertion"],
+      "links": [
+        {
+          "label": "Case Study",
+          "url": "#"
+        }
+      ],
+      "details": [
+        {
+          "heading": "My Role",
+          "body": "I worked on both the branding and the design of the platform, defining its visual identity and core user experience. This included designing key flows for browsing and purchasing digital goods, and making sure the platform felt simple and clear to use. Early in the project, I facilitated a two-week Google Design Sprint to explore and validate concepts, and tested prototypes with students from a local game development school to ground decisions in real user feedback."
+        },
+        {
+          "heading": "The Challenge",
+          "body": "The platform needed to make it easy for game servers to sell digital content, while keeping the experience intuitive for players. Payments and account-related actions can easily become confusing or feel unsafe, so clarity and trust were essential. It also needed a strong and credible identity to stand out in a space often dominated by fragmented and inconsistent tools."
+        },
+        {
+          "heading": "Results",
+          "body": "The result was a clear and easy-to-use platform with a strong and consistent identity. Server owners could manage and sell digital goods more easily, and players could complete purchases without unnecessary friction. Early testing helped catch usability issues and ensured the platform was built around real user needs from the start."
+        }
+      ]
+    },
+    {
+      "title": "Everyday",
+      "category": ["WEBSITES", "BRANDING"],
+      "year": 2017,
+      "image": "assets/project-1.jpg",
+      "gallery": ["assets/project-1.jpg"],
+      "description": "A digital design and development studio delivering high-end services for some of Norway’s leading brands.",
+      "tags": ["Consultancy", "Development", "Design"],
+      "links": [
+        {
+          "label": "Case Study",
+          "url": "#"
+        }
+      ],
+      "details": [
+        {
+          "heading": "My Role",
+          "body": "I designed the visual identity and website, giving the studio a clearer and more distinctive presence. This included creating a flexible visual system and designing pages that showcased their work in a confident and engaging way. I focused on balancing professionalism with personality, so the site felt sharp without feeling generic."
+        },
+        {
+          "heading": "The Challenge",
+          "body": "The studio delivered high-quality work for major brands, but their own brand didn’t reflect that level of craft. The challenge was to create something that felt credible and polished, while still showing character. It needed to stand out in a crowded space of agencies that all tend to look and sound the same."
+        },
+        {
+          "heading": "Results",
+          "body": "The result was a more confident and recognizable brand, supported by a website that felt modern, expressive, and true to the studio. It helped communicate their level of quality more clearly and made their work feel more compelling. The new identity gave them a stronger foundation to present themselves and grow."
+        }
+      ]
+    },
+    {
+      "title": "Sørenga",
+      "category": ["WEBSITES", "BRANDING"],
+      "year": 2015,
+      "image": "assets/project-1.jpg",
+      "gallery": ["assets/project-1.jpg"],
+      "description": "A collection of co-ownership homes in newly developed buildings, located in prime areas of Oslo near the fjord and city center.",
+      "tags": ["Co-ownership", "Real estate"],
+      "links": [
+        {
+          "label": "Case Study",
+          "url": "#"
+        }
+      ],
+      "details": [
+        {
+          "heading": "My Role",
+          "body": "I worked on the branding and designed the website, focusing on presenting information in a clear and structured way. This included defining the visual direction, organizing content, and designing pages that made it easier for residents and potential buyers to understand the project. My focus was on clarity, readability, and reducing unnecessary complexity."
+        },
+        {
+          "heading": "The Challenge",
+          "body": "Housing projects like this involve a lot of practical information, and it can quickly become overwhelming. The existing material was difficult to navigate and made it harder for residents to find what they needed. The challenge was to simplify the experience and present information in a way that felt accessible and easy to understand."
+        },
+        {
+          "heading": "Results",
+          "body": "The result was a clearer and more approachable website that made it easier to find and understand relevant information. Residents and buyers could navigate the content more easily and get a better overview of the project. The improved structure and presentation made the information more useful and easier to act on."
+        }
+      ]
+    }
+  ]
+}
