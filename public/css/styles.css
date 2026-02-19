@@ -415,9 +415,7 @@ button {
 .hero__footer {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 16px;
+  gap: 12px;
   padding-top: 4px;
 }
 
@@ -432,6 +430,7 @@ button {
   position: relative;
   display: inline-flex;
   align-items: center;
+  flex: 1 1 0;
   gap: 8px;
   padding: 2px;
   font-size: 0.9375rem;
@@ -449,9 +448,11 @@ button {
 }
 
 .hero__cta-inner {
-  display: inline-flex;
+  display: flex;
   align-items: center;
+  justify-content: center;
   gap: 8px;
+  width: 100%;
   padding: 11px 26px;
   border-radius: 999px;
   background: var(--bg);
@@ -512,6 +513,7 @@ button {
   position: relative;
   display: inline-flex;
   align-items: center;
+  flex: 1 1 0;
   padding: 2px;
   font-size: 0.9375rem;
   font-weight: 600;
@@ -526,9 +528,11 @@ button {
 }
 
 .hero__cta-secondary-inner {
-  display: inline-flex;
+  display: flex;
   align-items: center;
+  justify-content: center;
   gap: 8px;
+  width: 100%;
   padding: 11px 26px;
   border-radius: 999px;
   background: var(--bg);
@@ -1242,13 +1246,10 @@ button {
   }
 
   .hero__footer {
-    gap: 10px;
+    gap: 8px;
   }
 
-  .hero__cta-inner {
-    padding: 10px 18px;
-  }
-
+  .hero__cta-inner,
   .hero__cta-secondary-inner {
     padding: 10px 16px;
     font-size: 0.875rem;
