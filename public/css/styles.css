@@ -1242,31 +1242,16 @@ button {
   }
 
   .hero__footer {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 14px;
+    gap: 10px;
   }
 
-  .hero__cta {
-    width: 100%;
-    justify-content: center;
-  }
   .hero__cta-inner {
-    width: 100%;
-    justify-content: center;
+    padding: 10px 18px;
   }
 
-  .hero__meta {
-    font-size: 0.8125rem;
-  }
-
-  .hero__cta-secondary {
-    width: 100%;
-    justify-content: center;
-  }
   .hero__cta-secondary-inner {
-    width: 100%;
-    justify-content: center;
+    padding: 10px 16px;
+    font-size: 0.875rem;
   }
 
   .bio-modal__header {
