@@ -36,6 +36,16 @@
   const modalLinks     = $("#modalLinks");
   const footerCopy     = $("#footerCopy");
 
+  /* Biography modal refs */
+  const storyBtn       = $("#storyBtn");
+  const bioOverlayEl   = $("#bioModalOverlay");
+  const bioModalEl     = $("#bioModal");
+  const bioModalClose  = $("#bioModalClose");
+  const bioModalAvatar = $("#bioModalAvatar");
+  const bioModalTitle  = $("#bioModalTitle");
+  const bioModalSub    = $("#bioModalSubtitle");
+  const bioModalBody   = $("#bioModalBody");
+
   /* ---------- State ---------- */
   let projects      = [];
   let activeFilter  = "ALL";
@@ -76,6 +86,7 @@
   var avatarRingEl = $("#avatarRing");
 
   function renderAuthor(a) {
+    authorDataCache = a;
     // Avatar: skeleton until loaded
     avatarEl.alt = a.name;
     avatarEl.onload = function () {
@@ -443,6 +454,49 @@
   });
   document.addEventListener("keydown", function (e) {
     if (e.key === "Escape" && !overlayEl.hidden) closeModal();
+    if (e.key === "Escape" && !bioOverlayEl.hidden) closeBioModal();
+  });
+
+  /* ---------- Biography modal ---------- */
+  var authorDataCache = null;
+
+  function openBioModal() {
+    if (!authorDataCache) return;
+    var a = authorDataCache;
+
+    bioModalAvatar.src = a.avatar;
+    bioModalAvatar.alt = a.name;
+    bioModalTitle.textContent = a.name;
+    bioModalSub.textContent = a.title;
+
+    // Render biography paragraphs
+    var bio = a.biography || a.bio || "";
+    var paragraphs = bio.split("\n\n");
+    bioModalBody.innerHTML = paragraphs
+      .map(function (p) { return "<p>" + escapeHTML(p.trim()) + "</p>"; })
+      .filter(function (p) { return p !== "<p></p>"; })
+      .join("");
+
+    bioOverlayEl.hidden = false;
+    document.body.style.overflow = "hidden";
+    void bioOverlayEl.offsetHeight;
+    bioOverlayEl.classList.add("is-visible");
+    bioModalClose.focus();
+  }
+
+  function closeBioModal() {
+    bioOverlayEl.classList.remove("is-visible");
+    document.body.style.overflow = "";
+    setTimeout(function () {
+      bioOverlayEl.hidden = true;
+    }, 260);
+    storyBtn.focus();
+  }
+
+  storyBtn.addEventListener("click", openBioModal);
+  bioModalClose.addEventListener("click", closeBioModal);
+  bioOverlayEl.addEventListener("click", function (e) {
+    if (e.target === bioOverlayEl) closeBioModal();
   });
 
   /* ---------- Helpers ---------- */

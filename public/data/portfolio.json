@@ -2,7 +2,6 @@
   "author": {
     "name": "Bj\u00f8rn Torleiv Wahl",
     "title": "UI/UX Specialist",
-    "bio": "Hands-on product designer connecting design, technology, and teams.",
     "avatar": "assets/avatar.jpg",
     "location": "\ud83c\uddf3\ud83c\uddf4 Made in Norway",
     "email": "bjorn.torleiv.wahl@gmail.com",
@@ -15,7 +14,8 @@
       "Certified Scrum Master",
       "Hobby Photographer",
       "A Nice Guy"
-    ]
+    ],
+    "biography": "I'm Bj\u00f8rn Torleiv Wahl, a UI/UX specialist based in Norway with a deep passion for building digital products that truly work for people. My career has been shaped by a curiosity for how design, technology, and teamwork intersect to create meaningful experiences.\n\nOver the years I've had the privilege of working across industries, from media and publishing to enterprise SaaS. I've led design system initiatives, facilitated cross-functional workshops, and shipped products used by thousands. I believe that great design isn't just about pixels \u2014 it's about understanding problems, asking the right questions, and collaborating closely with engineers and stakeholders.\n\nAs a certified Scrum Master, I bring a structured yet flexible approach to product development. I thrive in environments where design thinking meets agile delivery, and I'm always looking for ways to bridge the gap between strategy and execution.\n\nWhen I'm not designing, you'll find me behind a camera exploring landscapes, hiking Norwegian trails, or tinkering with side projects that keep my creative skills sharp. I'm always open to new opportunities and conversations \u2014 feel free to reach out."
   },
   "projects": [
     {
