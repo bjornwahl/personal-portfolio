@@ -1288,6 +1288,29 @@ button {
   .bio-modal__title {
     font-size: 1.25rem;
   }
+
+  /* ---- Full-page modals on mobile ---- */
+  .modal-overlay,
+  .bio-modal-overlay {
+    padding: 0;
+    align-items: stretch;
+  }
+
+  .modal,
+  .bio-modal {
+    max-width: none;
+    max-height: none;
+    height: 100%;
+    border-radius: 0;
+    border: none;
+    transform: translateY(24px);
+    transition: transform 0.3s ease;
+  }
+
+  .modal-overlay.is-visible .modal,
+  .bio-modal-overlay.is-visible .bio-modal {
+    transform: translateY(0);
+  }
 }
 
 /* --- Toolbar & grid: tablet --- */
@@ -1325,10 +1348,6 @@ button {
   .projects__grid {
     grid-template-columns: 1fr;
     gap: 16px;
-  }
-
-  .modal {
-    max-height: 95vh;
   }
 
   .modal__body {
