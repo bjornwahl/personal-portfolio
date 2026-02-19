@@ -414,7 +414,7 @@ button {
 /* -- Footer: CTA + meta -- */
 .hero__footer {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   gap: 12px;
   padding-top: 4px;
 }
@@ -430,7 +430,6 @@ button {
   position: relative;
   display: inline-flex;
   align-items: center;
-  flex: 1 1 0;
   gap: 8px;
   padding: 2px;
   font-size: 0.9375rem;
@@ -513,7 +512,6 @@ button {
   position: relative;
   display: inline-flex;
   align-items: center;
-  flex: 1 1 0;
   padding: 2px;
   font-size: 0.9375rem;
   font-weight: 600;
@@ -1247,6 +1245,11 @@ button {
 
   .hero__footer {
     gap: 8px;
+  }
+
+  .hero__cta,
+  .hero__cta-secondary {
+    flex: 1 1 0;
   }
 
   .hero__cta-inner,
