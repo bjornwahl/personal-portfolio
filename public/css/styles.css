@@ -526,6 +526,7 @@ button {
   flex-wrap: wrap;
   align-items: center;
   gap: 16px;
+  overflow-x: hidden;
 }
 
 .toolbar__search-wrap {
@@ -568,8 +569,22 @@ button {
 
 .toolbar__filters {
   display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
+  gap: 8px;              /* optional, but nice */
+  flex-wrap: nowrap;     /* keeps everything on one line */
+  overflow-x: auto;      /* enables horizontal scrolling */
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch; /* smooth iOS scroll */
+  scrollbar-width: none; /* hides scrollbar in Firefox */
+  min-width: 0;
+  max-width: 100%;
+}
+
+.toolbar__filters::-webkit-scrollbar {
+  display: none;
+}
+
+.toolbar__filters > * {
+  flex: 0 0 auto;
 }
 
 .filter-btn {
@@ -1102,12 +1117,7 @@ button {
     overflow-x: auto;
     flex-wrap: nowrap;
     padding-bottom: 4px;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
     gap: 6px;
-  }
-  .toolbar__filters::-webkit-scrollbar {
-    display: none;
   }
 
   .filter-btn {
