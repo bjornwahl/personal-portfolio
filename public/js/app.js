@@ -45,6 +45,7 @@
   const bioModalTitle  = $("#bioModalTitle");
   const bioModalSub    = $("#bioModalSubtitle");
   const bioModalBody   = $("#bioModalBody");
+  const cvBtn          = $("#cvBtn");
 
   /* ---------- State ---------- */
   let projects      = [];
@@ -472,10 +473,16 @@
     // Render biography paragraphs
     var bio = a.biography || a.bio || "";
     var paragraphs = bio.split("\n\n");
-    bioModalBody.innerHTML = paragraphs
+    var htmlParagraphs = paragraphs
       .map(function (p) { return "<p>" + escapeHTML(p.trim()) + "</p>"; })
-      .filter(function (p) { return p !== "<p></p>"; })
-      .join("");
+      .filter(function (p) { return p !== "<p></p>"; });
+    
+    // Insert image after first paragraph with 16:9 aspect ratio
+    if (htmlParagraphs.length > 0) {
+      htmlParagraphs.splice(1, 0, '<div class="bio-modal__inline-image"><img src="assets/img/placeholder.png" alt="Bjorn at work" /></div>');
+    }
+    
+    bioModalBody.innerHTML = htmlParagraphs.join("");
 
     bioOverlayEl.hidden = false;
     document.body.style.overflow = "hidden";

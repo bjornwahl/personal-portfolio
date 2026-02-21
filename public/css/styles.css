@@ -687,6 +687,50 @@ button {
   margin-bottom: 0;
 }
 
+.bio-modal__inline-image {
+  margin: 24px 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+}
+
+.bio-modal__inline-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bio-modal__footer {
+  padding: 24px 28px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  gap: 12px;
+}
+
+.bio-modal__cv-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-radius: var(--radius-sm);
+  background: var(--accent);
+  color: var(--bg);
+  font-weight: 500;
+  font-size: 0.9375rem;
+  transition: background var(--transition);
+}
+
+.bio-modal__cv-btn:hover {
+  background: var(--accent-hover);
+}
+
+.bio-modal__cv-btn-inner {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 /* ===================================================
    TOOLBAR (Search + Filters)
    =================================================== */
@@ -1292,6 +1336,14 @@ button {
 
   .bio-modal__title {
     font-size: 1.25rem;
+  }
+
+  .bio-modal__footer {
+    padding: 20px;
+  }
+
+  .bio-modal__inline-image {
+    margin: 20px 0;
   }
 
   /* ---- Full-page modals on mobile ---- */
