@@ -22,10 +22,10 @@
       "title": "NTB Design System",
       "category": ["DESIGN SYSTEMS", "BRANDING"],
       "year": 2026,
-      "image": "assets/img/placeholder.png",
+      "image": "assets/img/ds02.jpg",
       "gallery": [
-        "assets/img/placeholder.png",
-        "assets/img/placeholder.png",
+        "assets/img/ds02.jpg",
+        "assets/img/ds01.jpg",
         "assets/img/placeholder.png"
       ],
       "description": "A scalable design system built to unify more than 15 applications under a shared foundation. It supports multi-tenancy and enables consistent user experiences, while making it easier for teams to design, build, and scale products efficiently.",
@@ -55,8 +55,8 @@
       "title": "NTB Image Portal",
       "category": ["WEB APPLICATIONS"],
       "year": 2024,
-      "image": "assets/img/placeholder.png",
-      "gallery": ["assets/img/placeholder.png", "assets/img/placeholder.png"],
+      "image": "assets/img/im01.jpg",
+      "gallery": ["assets/img/im01.jpg", "assets/img/placeholder.png"],
       "description": "A media marketplace platform used by multiple news agencies to sell and distribute digital assets to editorial and creative customers worldwide.",
       "tags": ["Multi-tennancy", "B2B + B2C SaaS"],
       "links": [
@@ -84,7 +84,7 @@
       "title": "SDL Media Manager",
       "category": ["WEB APPLICATIONS"],
       "year": 2023,
-      "image": "assets/img/placeholder.png",
+      "image": "assets/img/mm01.jpg",
       "gallery": [
         "assets/img/placeholder.png",
         "assets/img/placeholder.png",
@@ -118,8 +118,8 @@
       "title": "NTB Mediebank",
       "category": ["WEB APPLICATIONS"],
       "year": 2022,
-      "image": "assets/img/placeholder.png",
-      "gallery": ["assets/img/placeholder.png"],
+      "image": "assets/img/mb01.jpg",
+      "gallery": ["assets/img/mb01.jpg", "assets/img/mb02.jpg"],
       "description": "A simple-to-use digital asset management system built for teams across industries, widely adopted in editorial media, with more than 40,000 active users and growing.",
       "tags": ["B2B SaaS", "DAM", "Storage", "Editorial", "Commercial"],
       "links": [
@@ -147,8 +147,8 @@
       "title": "AVA Eiendom",
       "category": ["WEBSITES", "BRANDING"],
       "year": 2021,
-      "image": "assets/img/placeholder.png",
-      "gallery": ["assets/img/placeholder.png"],
+      "image": "assets/img/ava01.jpg",
+      "gallery": ["assets/img/ava01.jpg"],
       "description": "A refreshed brand and website that highlights the real estate agency’s strengths and presents it in a clear, modern way.",
       "tags": ["Real estate", "Industry", "Tenant services"],
       "links": [
@@ -173,11 +173,11 @@
       ]
     },
     {
-      "title": "CP-foreningen Min side",
+      "title": "CP-foreningen",
       "category": ["WEB APPLICATIONS"],
       "year": 2021,
-      "image": "assets/img/placeholder.png",
-      "gallery": ["assets/img/placeholder.png"],
+      "image": "assets/img/cp01.jpg",
+      "gallery": ["assets/img/cp01.jpg"],
       "description": "A membership portal designed to manage and strengthen the relationship between the organization and its members.",
       "tags": ["Patient organization", "Member support"],
       "links": [
@@ -205,8 +205,8 @@
       "title": "Danvik Folkehøgskole",
       "category": ["WEBSITES"],
       "year": 2020,
-      "image": "assets/img/placeholder.png",
-      "gallery": ["assets/img/placeholder.png"],
+      "image": "assets/img/dan01.jpg",
+      "gallery": ["assets/img/dan01.jpg"],
       "description": "A website for a folk high school designed to attract new students by highlighting classes, trips, and student life, with clear, accessible information and a strong focus on driving applications.",
       "tags": ["Education", "Convertion"],
       "links": [
@@ -234,9 +234,9 @@
       "title": "Dipr",
       "category": ["WEB APPLICATIONS", "BRANDING"],
       "year": 2019,
-      "image": "assets/img/placeholder.png",
+      "image": "assets/img/dipr01.jpg",
       "gallery": [
-        "assets/img/placeholder.png",
+        "assets/img/dipr01.jpg",
         "assets/img/placeholder.png",
         "assets/img/placeholder.png"
       ],
@@ -267,8 +267,8 @@
       "title": "Munitize",
       "category": ["WEB APPLICATIONS", "BRANDING"],
       "year": 2018,
-      "image": "assets/img/placeholder.png",
-      "gallery": ["assets/img/placeholder.png", "assets/img/placeholder.png"],
+      "image": "assets/img/mun01.jpg",
+      "gallery": ["assets/img/mun01.jpg", "assets/img/placeholder.png"],
       "description": "A marketplace and payment solution that helps game servers earn from active players through in-game purchases of goods and services, with a simple and intuitive experience throughout.",
       "tags": ["B2C SaaS", "Gaming", "Convertion"],
       "links": [
@@ -296,8 +296,8 @@
       "title": "Everyday",
       "category": ["WEBSITES", "BRANDING"],
       "year": 2017,
-      "image": "assets/img/placeholder.png",
-      "gallery": ["assets/img/placeholder.png"],
+      "image": "assets/img/ev01.jpg",
+      "gallery": ["assets/img/ev01.jpg"],
       "description": "A digital design and development studio delivering high-end services for some of Norway’s leading brands.",
       "tags": ["Consultancy", "Development", "Design"],
       "links": [
@@ -325,8 +325,8 @@
       "title": "Sørenga",
       "category": ["WEBSITES", "BRANDING"],
       "year": 2015,
-      "image": "assets/img/placeholder.png",
-      "gallery": ["assets/img/placeholder.png"],
+      "image": "assets/img/so01.jpg",
+      "gallery": ["assets/img/so01.jpg"],
       "description": "A collection of co-ownership homes in newly developed buildings, located in prime areas of Oslo near the fjord and city center.",
       "tags": ["Co-ownership", "Real estate"],
       "links": [
