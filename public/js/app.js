@@ -479,7 +479,7 @@
     
     // Insert image after first paragraph with 16:9 aspect ratio
     if (htmlParagraphs.length > 0) {
-      htmlParagraphs.splice(1, 0, '<div class="bio-modal__inline-image"><img src="assets/img/placeholder.png" alt="Bjorn at work" /></div>');
+      htmlParagraphs.splice(1, 0, '<div class="bio-modal__inline-image"><img src="assets/img/about.jpg" alt="Bjorn" /></div>');
     }
     
     bioModalBody.innerHTML = htmlParagraphs.join("");
