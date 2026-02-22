@@ -22,12 +22,8 @@
       "title": "NTB Design System",
       "category": ["DESIGN SYSTEMS", "BRANDING"],
       "year": 2026,
-      "image": "assets/img/ds02.jpg",
-      "gallery": [
-        "assets/img/ds02.jpg",
-        "assets/img/ds01.jpg",
-        "assets/img/placeholder.png"
-      ],
+      "image": "assets/img/ds01.jpg",
+      "gallery": ["assets/img/ds01.jpg"],
       "description": "A scalable design system built to unify more than 15 applications under a shared foundation. It supports multi-tenancy and enables consistent user experiences, while making it easier for teams to design, build, and scale products efficiently.",
       "tags": ["Multi-tennancy", "Shadcn", "Tailwind CSS"],
       "links": [
@@ -56,7 +52,7 @@
       "category": ["WEB APPLICATIONS"],
       "year": 2024,
       "image": "assets/img/im01.jpg",
-      "gallery": ["assets/img/im01.jpg", "assets/img/placeholder.png"],
+      "gallery": ["assets/img/im01.jpg"],
       "description": "A media marketplace platform used by multiple news agencies to sell and distribute digital assets to editorial and creative customers worldwide.",
       "tags": ["Multi-tennancy", "B2B + B2C SaaS"],
       "links": [
@@ -85,12 +81,7 @@
       "category": ["WEB APPLICATIONS"],
       "year": 2023,
       "image": "assets/img/mm01.jpg",
-      "gallery": [
-        "assets/img/placeholder.png",
-        "assets/img/placeholder.png",
-        "assets/img/placeholder.png",
-        "assets/img/placeholder.png"
-      ],
+      "gallery": ["assets/img/mm.jpg"],
       "description": "Professional software for managing and distributing more than 400 million images and videos, used by news agencies to move content quickly and reliably, and serving as the backbone for other applications.",
       "tags": ["B2B SaaS", "DAM", "Storage", "Editorial"],
       "links": [
@@ -235,11 +226,7 @@
       "category": ["WEB APPLICATIONS", "BRANDING"],
       "year": 2019,
       "image": "assets/img/dipr01.jpg",
-      "gallery": [
-        "assets/img/dipr01.jpg",
-        "assets/img/placeholder.png",
-        "assets/img/placeholder.png"
-      ],
+      "gallery": ["assets/img/dipr01.jpg"],
       "description": "An alternative to traditional local news, focused on in-depth journalism, a calmer pace, and a thoughtful reading experience. Built to foster a community, not just an audience. Recognized as a pioneer in its field.",
       "tags": ["Editorial", "Publishing", "Convertion"],
       "links": [
@@ -268,7 +255,7 @@
       "category": ["WEB APPLICATIONS", "BRANDING"],
       "year": 2018,
       "image": "assets/img/mun01.jpg",
-      "gallery": ["assets/img/mun01.jpg", "assets/img/placeholder.png"],
+      "gallery": ["assets/img/mun01.jpg"],
       "description": "A marketplace and payment solution that helps game servers earn from active players through in-game purchases of goods and services, with a simple and intuitive experience throughout.",
       "tags": ["B2C SaaS", "Gaming", "Convertion"],
       "links": [
