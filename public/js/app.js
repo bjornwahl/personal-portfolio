@@ -48,7 +48,6 @@
   const bioModalTitle  = $("#bioModalTitle");
   const bioModalSub    = $("#bioModalSubtitle");
   const bioModalBody   = $("#bioModalBody");
-  const bioModalRight  = $("#bioModalRight");
   const cvBtn          = $("#cvBtn");
 
   /* ---------- State ---------- */
@@ -432,19 +431,6 @@
       })
       .join("");
 
-    // Hire me CTA
-    var modalHireMe = document.getElementById("modalHireMe");
-    if (author && author.ctaUrl) {
-      modalHireMe.innerHTML = (
-        '<a class="modal__hire-me-cta" href="' + author.ctaUrl + '" target="_blank" rel="noopener noreferrer">' +
-        '<span>' + escapeHTML(author.ctaText || "Hire me") + '</span>' +
-        '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>' +
-        '</a>'
-      );
-    } else {
-      modalHireMe.innerHTML = "";
-    }
-
     // Scroll right pane to top
     modalRight.scrollTop = 0;
 
@@ -523,25 +509,6 @@
 
     bioModalAvatar.src = a.avatar;
     bioModalAvatar.alt = a.name;
-    
-    // Handle image load state
-    var imageWrap = bioModalAvatar.closest(".bio-modal__image-wrap");
-    if (imageWrap) {
-      imageWrap.classList.remove("is-loaded");
-      if (bioModalAvatar.complete && bioModalAvatar.naturalWidth > 0) {
-        imageWrap.classList.add("is-loaded");
-      } else {
-        bioModalAvatar.onload = function () {
-          imageWrap.classList.add("is-loaded");
-          bioModalAvatar.onload = null;
-        };
-        bioModalAvatar.onerror = function () {
-          imageWrap.classList.add("is-loaded");
-          bioModalAvatar.onerror = null;
-        };
-      }
-    }
-    
     bioModalTitle.textContent = a.name;
     bioModalSub.textContent = a.title;
 
@@ -558,9 +525,6 @@
     }
     
     bioModalBody.innerHTML = htmlParagraphs.join("");
-
-    // Scroll right pane to top
-    bioModalRight.scrollTop = 0;
 
     bioOverlayEl.hidden = false;
     document.body.style.overflow = "hidden";
@@ -580,8 +544,8 @@
 
   storyBtn.addEventListener("click", openBioModal);
   bioModalClose.addEventListener("click", closeBioModal);
-  document.addEventListener("keydown", function (e) {
-    if (e.key === "Escape" && !bioOverlayEl.hidden) closeBioModal();
+  bioOverlayEl.addEventListener("click", function (e) {
+    if (e.target === bioOverlayEl) closeBioModal();
   });
 
   /* ---------- Helpers ---------- */
