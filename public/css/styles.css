@@ -1013,16 +1013,16 @@ button {
   overflow: hidden;
 }
 
-.modal__left.has-gallery {
-  height: 200vh;
-}
-
 .modal__image-wrap {
   position: relative;
   flex: 1;
   min-height: 0;
   overflow: hidden;
   background: var(--bg-hover);
+}
+
+.modal__left.has-gallery .modal__image-wrap {
+  flex: 2;
 }
 
 .modal__image-wrap::before {
