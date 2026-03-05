@@ -34,6 +34,9 @@
   const modalTags      = $("#modalTags");
   const modalAccordion = $("#modalAccordion");
   const modalLinks     = $("#modalLinks");
+  const modalRight     = $("#modalRight");
+  const modalPrev      = $("#modalPrev");
+  const modalNext      = $("#modalNext");
   const footerCopy     = $("#footerCopy");
 
   /* Biography modal refs */
@@ -52,6 +55,7 @@
   let activeFilter  = "ALL";
   let searchQuery   = "";
   let triggerElement = null; // Element that opened the modal, for focus return
+  let currentModalIndex = -1; // Index in the projects array of the currently shown project
 
   /* ---------- Fetch data ---------- */
   async function init() {
@@ -283,7 +287,13 @@
     var p = projects[index];
     if (!p) return;
 
-    triggerElement = trigger || null;
+    currentModalIndex = index;
+    if (trigger !== undefined && trigger !== null) {
+      triggerElement = trigger;
+    }
+
+    // Update prev/next button states based on filtered list
+    updateNavButtons();
 
     // Reset shimmer on the image wrap only
     var modalImageWrap = modalImage.closest(".modal__image-wrap");
@@ -421,6 +431,9 @@
       })
       .join("");
 
+    // Scroll right pane to top
+    modalRight.scrollTop = 0;
+
     // Show
     overlayEl.hidden = false;
     document.body.style.overflow = "hidden";
@@ -448,14 +461,43 @@
     }
   }
 
+  /* ---------- Prev / Next navigation ---------- */
+  function updateNavButtons() {
+    var filtered = getFiltered();
+    var filteredIndices = filtered.map(function (p) { return projects.indexOf(p); });
+    var pos = filteredIndices.indexOf(currentModalIndex);
+
+    modalPrev.disabled = (pos <= 0);
+    modalNext.disabled = (pos < 0 || pos >= filteredIndices.length - 1);
+  }
+
+  function navigateModal(direction) {
+    var filtered = getFiltered();
+    var filteredIndices = filtered.map(function (p) { return projects.indexOf(p); });
+    var pos = filteredIndices.indexOf(currentModalIndex);
+    var newPos = pos + direction;
+
+    if (newPos < 0 || newPos >= filteredIndices.length) return;
+
+    var newIndex = filteredIndices[newPos];
+    openModal(newIndex, null);
+  }
+
+  // Nav button clicks
+  modalPrev.addEventListener("click", function () { navigateModal(-1); });
+  modalNext.addEventListener("click", function () { navigateModal(1); });
+
   // Close triggers
   modalClose.addEventListener("click", closeModal);
-  overlayEl.addEventListener("click", function (e) {
-    if (e.target === overlayEl) closeModal();
-  });
   document.addEventListener("keydown", function (e) {
     if (e.key === "Escape" && !overlayEl.hidden) closeModal();
     if (e.key === "Escape" && !bioOverlayEl.hidden) closeBioModal();
+
+    // Arrow key navigation when modal is open
+    if (!overlayEl.hidden) {
+      if (e.key === "ArrowLeft") { e.preventDefault(); navigateModal(-1); }
+      if (e.key === "ArrowRight") { e.preventDefault(); navigateModal(1); }
+    }
   });
 
   /* ---------- Biography modal ---------- */
