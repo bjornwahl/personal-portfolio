@@ -26,6 +26,7 @@
   const modalEl        = $("#modal");
   const modalClose     = $("#modalClose");
   const modalImage     = $("#modalImage");
+  const modalLeft      = $("#modal").querySelector(".modal__left");
   const modalThumbs    = $("#modalThumbs");
   const modalCategory  = $("#modalCategory");
   const modalYear      = $("#modalYear");
@@ -318,7 +319,7 @@
 
     // Thumbnails
     var gallery = p.gallery || [];
-    if (gallery.length > 1) {
+    if (gallery.length > 0) {
       modalThumbs.hidden = false;
       modalThumbs.innerHTML = gallery
         .map(function (src, i) {
@@ -357,9 +358,13 @@
           }
         });
       });
+
+      // Double the height when gallery is present
+      modalLeft.classList.add("has-gallery");
     } else {
       modalThumbs.hidden = true;
       modalThumbs.innerHTML = "";
+      modalLeft.classList.remove("has-gallery");
     }
 
     modalCategory.textContent = (p.category || []).join(" • ");

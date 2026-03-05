@@ -1013,6 +1013,10 @@ button {
   overflow: hidden;
 }
 
+.modal__left.has-gallery {
+  height: 200vh;
+}
+
 .modal__image-wrap {
   position: relative;
   flex: 1;
