@@ -373,47 +373,20 @@
       })
       .join("");
 
-    // Accordion details
+    // Project details: render as continuous text sections
     var details = p.details || [];
     if (details.length > 0) {
       modalAccordion.hidden = false;
       modalAccordion.innerHTML = details
-        .map(function (d, i) {
+        .map(function (d) {
           return (
-            '<div class="accordion-item" data-index="' + i + '">' +
-            '  <button class="accordion-trigger" aria-expanded="false">' +
-            '    <span>' + escapeHTML(d.heading) + '</span>' +
-            '    <svg class="accordion-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>' +
-            '  </button>' +
-            '  <div class="accordion-panel" role="region">' +
-            '    <div class="accordion-panel__inner">' +
-            '      <p class="accordion-panel__text">' + escapeHTML(d.body) + '</p>' +
-            '    </div>' +
-            '  </div>' +
+            '<div class="modal__detail-section">' +
+            '  <h3 class="modal__detail-heading">' + escapeHTML(d.heading) + '</h3>' +
+            '  <p class="modal__detail-text">' + escapeHTML(d.body) + '</p>' +
             '</div>'
           );
         })
         .join("");
-
-      // Toggle listeners
-      modalAccordion.querySelectorAll(".accordion-trigger").forEach(function (btn) {
-        btn.addEventListener("click", function () {
-          var item = btn.closest(".accordion-item");
-          var isOpen = item.classList.contains("is-open");
-
-          // Close all siblings
-          modalAccordion.querySelectorAll(".accordion-item").forEach(function (el) {
-            el.classList.remove("is-open");
-            el.querySelector(".accordion-trigger").setAttribute("aria-expanded", "false");
-          });
-
-          // Open clicked if it was closed
-          if (!isOpen) {
-            item.classList.add("is-open");
-            btn.setAttribute("aria-expanded", "true");
-          }
-        });
-      });
     } else {
       modalAccordion.hidden = true;
       modalAccordion.innerHTML = "";

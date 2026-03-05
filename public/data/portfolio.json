@@ -26,12 +26,7 @@
       "gallery": ["assets/img/ds01.jpg"],
       "description": "A scalable design system built to unify more than 15 applications under a shared foundation. It supports multi-tenancy and enables consistent user experiences, while making it easier for teams to design, build, and scale products efficiently.",
       "tags": ["Multi-tennancy", "Shadcn", "Tailwind CSS"],
-      "links": [
-        {
-          "label": "Case Study",
-          "url": "#"
-        }
-      ],
+      "links": [],
       "details": [
         {
           "heading": "My Role",
@@ -55,12 +50,7 @@
       "gallery": ["assets/img/im01.jpg"],
       "description": "A media marketplace platform used by multiple news agencies to sell and distribute digital assets to editorial and creative customers worldwide.",
       "tags": ["Multi-tennancy", "B2B + B2C SaaS"],
-      "links": [
-        {
-          "label": "Case Study",
-          "url": "#"
-        }
-      ],
+      "links": [],
       "details": [
         {
           "heading": "My Role",
@@ -84,12 +74,7 @@
       "gallery": ["assets/img/mm.jpg"],
       "description": "Professional software for managing and distributing more than 400 million images and videos, used by news agencies to move content quickly and reliably, and serving as the backbone for other applications.",
       "tags": ["B2B SaaS", "DAM", "Storage", "Editorial"],
-      "links": [
-        {
-          "label": "Case Study",
-          "url": "#"
-        }
-      ],
+      "links": [],
       "details": [
         {
           "heading": "My Role",
@@ -113,12 +98,7 @@
       "gallery": ["assets/img/mb01.jpg", "assets/img/mb02.jpg"],
       "description": "A simple-to-use digital asset management system built for teams across industries, widely adopted in editorial media, with more than 40,000 active users and growing.",
       "tags": ["B2B SaaS", "DAM", "Storage", "Editorial", "Commercial"],
-      "links": [
-        {
-          "label": "Case Study",
-          "url": "#"
-        }
-      ],
+      "links": [],
       "details": [
         {
           "heading": "My Role",
@@ -142,12 +122,7 @@
       "gallery": ["assets/img/ava01.jpg"],
       "description": "A refreshed brand and website that highlights the real estate agency’s strengths and presents it in a clear, modern way.",
       "tags": ["Real estate", "Industry", "Tenant services"],
-      "links": [
-        {
-          "label": "Case Study",
-          "url": "#"
-        }
-      ],
+      "links": [],
       "details": [
         {
           "heading": "My Role",
@@ -171,12 +146,7 @@
       "gallery": ["assets/img/cp01.jpg"],
       "description": "A membership portal designed to manage and strengthen the relationship between the organization and its members.",
       "tags": ["Patient organization", "Member support"],
-      "links": [
-        {
-          "label": "Case Study",
-          "url": "#"
-        }
-      ],
+      "links": [],
       "details": [
         {
           "heading": "My Role",
@@ -200,12 +170,7 @@
       "gallery": ["assets/img/dan01.jpg"],
       "description": "A website for a folk high school designed to attract new students by highlighting classes, trips, and student life, with clear, accessible information and a strong focus on driving applications.",
       "tags": ["Education", "Convertion"],
-      "links": [
-        {
-          "label": "Case Study",
-          "url": "#"
-        }
-      ],
+      "links": [],
       "details": [
         {
           "heading": "My Role",
@@ -229,12 +194,7 @@
       "gallery": ["assets/img/dipr01.jpg"],
       "description": "An alternative to traditional local news, focused on in-depth journalism, a calmer pace, and a thoughtful reading experience. Built to foster a community, not just an audience. Recognized as a pioneer in its field.",
       "tags": ["Editorial", "Publishing", "Convertion"],
-      "links": [
-        {
-          "label": "Case Study",
-          "url": "#"
-        }
-      ],
+      "links": [],
       "details": [
         {
           "heading": "My Role",
@@ -258,12 +218,7 @@
       "gallery": ["assets/img/mun01.jpg"],
       "description": "A marketplace and payment solution that helps game servers earn from active players through in-game purchases of goods and services, with a simple and intuitive experience throughout.",
       "tags": ["B2C SaaS", "Gaming", "Convertion"],
-      "links": [
-        {
-          "label": "Case Study",
-          "url": "#"
-        }
-      ],
+      "links": [],
       "details": [
         {
           "heading": "My Role",
@@ -287,12 +242,7 @@
       "gallery": ["assets/img/ev01.jpg"],
       "description": "A digital design and development studio delivering high-end services for some of Norway’s leading brands.",
       "tags": ["Consultancy", "Development", "Design"],
-      "links": [
-        {
-          "label": "Case Study",
-          "url": "#"
-        }
-      ],
+      "links": [],
       "details": [
         {
           "heading": "My Role",
@@ -316,12 +266,7 @@
       "gallery": ["assets/img/so01.jpg"],
       "description": "A collection of co-ownership homes in newly developed buildings, located in prime areas of Oslo near the fjord and city center.",
       "tags": ["Co-ownership", "Real estate"],
-      "links": [
-        {
-          "label": "Case Study",
-          "url": "#"
-        }
-      ],
+      "links": [],
       "details": [
         {
           "heading": "My Role",
