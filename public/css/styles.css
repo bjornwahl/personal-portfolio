@@ -1118,7 +1118,7 @@ button {
 .modal__desc {
   margin-top: 16px;
   color: var(--text-muted);
-  font-size: 1.0625rem;
+  font-size: 1.125rem;
   line-height: 1.7;
 }
 
@@ -1164,6 +1164,17 @@ button {
 }
 .modal__link svg {
   flex-shrink: 0;
+}
+
+.modal__detail-text {
+  color: var(--text-muted);
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  margin-top: 18px;
+}
+
+.modal__detail-text:first-child {
+  margin-top: 0;
 }
 
 /* ===================================================
