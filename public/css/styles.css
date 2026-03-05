@@ -1166,29 +1166,6 @@ button {
   flex-shrink: 0;
 }
 
-/* Detail sections */
-.modal__detail-section {
-  margin-top: 28px;
-}
-
-.modal__detail-section:first-child {
-  margin-top: 0;
-}
-
-.modal__detail-heading {
-  font-size: 1.125rem;
-  font-weight: 600;
-  color: var(--text);
-  margin-bottom: 12px;
-  letter-spacing: -0.01em;
-}
-
-.modal__detail-text {
-  color: var(--text-muted);
-  font-size: 1.0625rem;
-  line-height: 1.7;
-}
-
 /* ===================================================
    THUMBNAILS (inside modal left pane)
    =================================================== */

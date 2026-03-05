@@ -373,18 +373,13 @@
       })
       .join("");
 
-    // Project details: render as continuous text sections
+    // Project details: render as continuous text
     var details = p.details || [];
     if (details.length > 0) {
       modalAccordion.hidden = false;
       modalAccordion.innerHTML = details
         .map(function (d) {
-          return (
-            '<div class="modal__detail-section">' +
-            '  <h3 class="modal__detail-heading">' + escapeHTML(d.heading) + '</h3>' +
-            '  <p class="modal__detail-text">' + escapeHTML(d.body) + '</p>' +
-            '</div>'
-          );
+          return '<p class="modal__detail-text">' + escapeHTML(d.body) + '</p>';
         })
         .join("");
     } else {
