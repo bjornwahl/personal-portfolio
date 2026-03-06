@@ -258,6 +258,32 @@
         }
       ]
     },
+    {
+      "title": "Sørenga",
+      "category": ["WEBSITES", "BRANDING"],
+      "year": 2015,
+      "image": "assets/img/so01.jpg",
+      "gallery": ["assets/img/so01.jpg"],
+      "description": "A housing project in prime Oslo locations. This is the branding and website to help residents and potential buyers understand the project.",
+      "tags": ["Co-ownership", "Real estate"],
+      "links": [],
+      "details": [
+        {
+          "heading": "My Role",
+          "body": "Worked on the branding and designed the website, focusing on making information clear and organized. Figured out the visual direction, structured the content, and designed pages that made it easy for residents and buyers to understand the project. The goal was clarity, readability, and cutting out the unnecessary complexity."
+        },
+        {
+          "heading": "The Challenge",
+          "body": "Housing projects come with a lot of practical information, and it's easy for it to become overwhelming. The existing materials were hard to navigate and people struggled to find what they needed. The challenge was to simplify things and present information in a way that actually makes sense."
+        },
+        {
+          "heading": "Results",
+          "body": "Residents and buyers can now easily find the information they need. The site presents the project clearly and makes it easier to understand what's being offered. It also strengthened the project's brand presence and credibility."
+        }
+      ]
+    }
+      ]
+    },
         {
           "heading": "The Challenge",
           "body": "The studio delivered high-quality work for major brands, but their own brand didn’t reflect that level of craft. The challenge was to create something that felt credible and polished, while still showing character. It needed to stand out in a crowded space of agencies that all tend to look and sound the same."
