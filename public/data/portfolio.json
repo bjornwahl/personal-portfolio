@@ -1,9 +1,9 @@
 {
   "author": {
-    "name": "Bj\u00f8rn Torleiv Wahl",
+    "name": "Bjørn Torleiv Wahl",
     "title": "UI/UX Specialist",
     "avatar": "assets/avatar.jpg",
-    "location": "\ud83c\uddf3\ud83c\uddf4 Made in Norway",
+    "location": "🇳🇴 Made in Norway",
     "email": "bjorn.torleiv.wahl@gmail.com",
     "ctaText": "Hire me",
     "ctaUrl": "mailto:bjorn.torleiv.wahl@gmail.com?subject=Project%20Inquiry",
@@ -15,7 +15,7 @@
       "Hobby Photographer",
       "A Nice Guy"
     ],
-    "biography": "I'm Bj\u00f8rn Torleiv Wahl, a UI/UX specialist based in Norway with a deep passion for building digital products that truly work for people. My career has been shaped by a curiosity for how design, technology, and teamwork intersect to create meaningful experiences.\n\nOver the years I've had the privilege of working across industries, from media and publishing to enterprise SaaS. I've led design system initiatives, facilitated cross-functional workshops, and shipped products used by thousands. I believe that great design isn't just about pixels \u2014 it's about understanding problems, asking the right questions, and collaborating closely with engineers and stakeholders.\n\nAs a certified Scrum Master, I bring a structured yet flexible approach to product development. I thrive in environments where design thinking meets agile delivery, and I'm always looking for ways to bridge the gap between strategy and execution.\n\nWhen I'm not designing, you'll find me behind a camera exploring landscapes, hiking Norwegian trails, or tinkering with side projects that keep my creative skills sharp. I'm always open to new opportunities and conversations \u2014 feel free to reach out."
+    "biography": "I'm Bjørn Torleiv Wahl, a UI/UX specialist based in Norway with a deep passion for building digital products that truly work for people. My career has been shaped by a curiosity for how design, technology, and teamwork intersect to create meaningful experiences.\n\nOver the years I've had the privilege of working across industries, from media and publishing to enterprise SaaS. I've led design system initiatives, facilitated cross-functional workshops, and shipped products used by thousands. I believe that great design isn't just about pixels — it's about understanding problems, asking the right questions, and collaborating closely with engineers and stakeholders.\n\nAs a certified Scrum Master, I bring a structured yet flexible approach to product development. I thrive in environments where design thinking meets agile delivery, and I'm always looking for ways to bridge the gap between strategy and execution.\n\nWhen I'm not designing, you'll find me behind a camera exploring landscapes, hiking Norwegian trails, or tinkering with side projects that keep my creative skills sharp. I'm always open to new opportunities and conversations — feel free to reach out."
   },
   "projects": [
     {
@@ -255,42 +255,6 @@
         {
           "heading": "Results",
           "body": "They got a more confident and recognizable brand, backed by a website that felt modern and expressive. It helped communicate their level of quality more clearly and made their work feel more compelling. The new identity gave them a stronger foundation to grow from."
-        }
-      ]
-    },
-    {
-      "title": "Sørenga",
-      "category": ["WEBSITES", "BRANDING"],
-      "year": 2015,
-      "image": "assets/img/so01.jpg",
-      "gallery": ["assets/img/so01.jpg"],
-      "description": "A housing project in prime Oslo locations. This is the branding and website to help residents and potential buyers understand the project.",
-      "tags": ["Co-ownership", "Real estate"],
-      "links": [],
-      "details": [
-        {
-          "heading": "My Role",
-          "body": "Worked on the branding and designed the website, focusing on making information clear and organized. Figured out the visual direction, structured the content, and designed pages that made it easy for residents and buyers to understand the project. The goal was clarity, readability, and cutting out the unnecessary complexity."
-        },
-        {
-          "heading": "The Challenge",
-          "body": "Housing projects come with a lot of practical information, and it's easy for it to become overwhelming. The existing materials were hard to navigate and people struggled to find what they needed. The challenge was to simplify things and present information in a way that actually makes sense."
-        },
-        {
-          "heading": "Results",
-          "body": "Residents and buyers can now easily find the information they need. The site presents the project clearly and makes it easier to understand what's being offered. It also strengthened the project's brand presence and credibility."
-        }
-      ]
-    }
-      ]
-    },
-        {
-          "heading": "The Challenge",
-          "body": "The studio delivered high-quality work for major brands, but their own brand didn’t reflect that level of craft. The challenge was to create something that felt credible and polished, while still showing character. It needed to stand out in a crowded space of agencies that all tend to look and sound the same."
-        },
-        {
-          "heading": "Results",
-          "body": "The result was a more confident and recognizable brand, supported by a website that felt modern, expressive, and true to the studio. It helped communicate their level of quality more clearly and made their work feel more compelling. The new identity gave them a stronger foundation to present themselves and grow."
         }
       ]
     },
