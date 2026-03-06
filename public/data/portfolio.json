@@ -24,21 +24,21 @@
       "year": 2026,
       "image": "assets/img/ds01.jpg",
       "gallery": ["assets/img/ds01.jpg"],
-      "description": "A scalable design system built to unify more than 15 applications under a shared foundation. It supports multi-tenancy and enables consistent user experiences, while making it easier for teams to design, build, and scale products efficiently.",
+      "description": "Built a design system that brought together 15+ apps under one roof. It supports multiple brands and teams, making it easier for everyone to design and ship products without starting from scratch every time.",
       "tags": ["Multi-tennancy", "Shadcn", "Tailwind CSS"],
       "links": [],
       "details": [
         {
           "heading": "My Role",
-          "body": "I led the design and implementation of the system, building on an existing component foundation and adapting it to fit the products’ needs. I created, refined, and documented over 100 components, and defined clear patterns and guidelines to ensure consistency. My role was to make the system practical, scalable, and easy for both designers and developers to use in their daily work."
+          "body": "I led the design and implementation, starting from an existing foundation and adapting it to what the products actually needed. Created and refined over 100 components, wrote the docs, and established patterns everyone could follow. Basically, I tried to make something practical that teams would actually want to use."
         },
         {
           "heading": "The Challenge",
-          "body": "The applications had grown independently, which led to inconsistent user experiences and duplicated effort across teams. There was no shared structure, making it harder to maintain quality and move efficiently. The system also needed to support multi-tenancy, which required components to be flexible without introducing unnecessary complexity."
+          "body": "The apps had grown independently, which meant inconsistent experiences and a lot of duplicated work. There was no shared structure, so maintaining quality was tough. On top of that, the system needed to handle multi-tenancy without becoming overly complex."
         },
         {
           "heading": "Results",
-          "body": "The design system established a shared foundation across more than 15 applications, improving consistency and reducing repeated work. It made it easier for teams to design and build new features, and improved collaboration between design and development. It also created a more scalable setup, making future improvements faster and more predictable"
+          "body": "Teams went from building in isolation to working from a shared foundation. Design and development moved faster, collaboration improved, and everything felt more consistent. It also made scaling and future improvements a lot more predictable."
         }
       ]
     },
@@ -48,21 +48,21 @@
       "year": 2024,
       "image": "assets/img/im01.jpg",
       "gallery": ["assets/img/im01.jpg"],
-      "description": "A media marketplace platform used by multiple news agencies to sell and distribute digital assets to editorial and creative customers worldwide.",
+      "description": "A media marketplace where news agencies can sell and distribute photos and videos globally. Made it simple for buyers to find what they need and easy for agencies to manage their content.",
       "tags": ["Multi-tennancy", "B2B + B2C SaaS"],
       "links": [],
       "details": [
         {
           "heading": "My Role",
-          "body": "I was responsible for designing the user experience and interface from the ground up. I defined the structure, core workflows, and visual direction of the platform, ensuring it was clear, efficient, and easy to use. I worked closely with product owners, developers, and stakeholders throughout the process to translate complex needs into practical solutions."
+          "body": "Designed the entire user experience and interface from scratch. That meant figuring out the structure, mapping out workflows, and deciding what everything should look like. I worked closely with product owners, developers, and stakeholders to turn complex requirements into something that actually makes sense to use."
         },
         {
           "heading": "The Challenge",
-          "body": "The platform needed to support multiple news agencies and a global audience, while handling large volumes of digital assets and complex licensing models. Starting from scratch meant every decision had to balance flexibility, usability, and scalability. The experience had to work equally well for different types of professional users who depend on speed and reliability."
+          "body": "The platform had to work for multiple agencies and customers across the globe, handling massive amounts of images and complex licensing rules. Starting from zero meant every decision had to balance flexibility with being easy to use. And it needed to be fast and reliable for professional users who depend on it for their work."
         },
         {
           "heading": "Results",
-          "body": "The result was a scalable and intuitive media marketplace that made it easy to browse, evaluate, and purchase digital assets. It gave news agencies a reliable platform to distribute their content, and customers a clear and efficient way to access it. Building it on a strong foundation also made it easier to maintain and expand as needs evolved."
+          "body": "The platform ended up being intuitive and scalable. Agencies got a reliable way to distribute their content, and buyers got a clear, efficient way to find and buy what they need. Building on a solid foundation also made it easier to maintain and expand later."
         }
       ]
     },
@@ -72,21 +72,21 @@
       "year": 2023,
       "image": "assets/img/mm01.jpg",
       "gallery": ["assets/img/mm.jpg"],
-      "description": "Professional software for managing and distributing more than 400 million images and videos, used by news agencies to move content quickly and reliably, and serving as the backbone for other applications.",
+      "description": "Professional software for managing 400+ million images and videos. News agencies depend on it daily to move content fast and reliably, and it powers a bunch of other tools too.",
       "tags": ["B2B SaaS", "DAM", "Storage", "Editorial"],
       "links": [],
       "details": [
         {
           "heading": "My Role",
-          "body": "I worked on improving the interface and overall usability of a platform used by news agencies to manage and distribute digital assets. I focused on making complex workflows easier to understand and use, and worked closely with developers and stakeholders to ensure the solutions fit real needs and existing workflows."
+          "body": "Focused on making a complex platform easier to use. Simplified workflows, worked with developers and stakeholders to solve real problems without breaking what already works. The goal was to make everyday tasks less friction-filled."
         },
         {
           "heading": "The Challenge",
-          "body": "The platform handled more than 400 million images and videos and was a critical part of daily operations. Users needed to move fast and be able to trust the system. At the same time, it served as a backbone for other applications, which meant improvements had to be made without breaking integrations or disrupting how teams already worked."
+          "body": "This platform handles an insane amount of content and teams depend on it for their work. Speed and reliability are non-negotiable. At the same time, it's the foundation for other apps, so changes can't break those integrations or disrupt existing workflows."
         },
         {
           "heading": "Results",
-          "body": "The updates made the platform easier to use and more efficient in everyday tasks. Users could find, manage, and distribute content with less friction, and the system became easier to maintain and build on. It also strengthened the foundation for the other products that depend on it."
+          "body": "Made the platform more efficient in daily use. Finding, managing, and distributing content became smoother. It's easier to maintain and extend now, and the foundation got stronger for the products that depend on it."
         }
       ]
     },
@@ -96,21 +96,21 @@
       "year": 2022,
       "image": "assets/img/mb01.jpg",
       "gallery": ["assets/img/mb01.jpg", "assets/img/mb02.jpg"],
-      "description": "A simple-to-use digital asset management system built for teams across industries, widely adopted in editorial media, with more than 40,000 active users and growing.",
+      "description": "A digital asset management platform built to be simple and intuitive. It's used by teams across different industries, with over 40,000 active users who rely on it daily.",
       "tags": ["B2B SaaS", "DAM", "Storage", "Editorial", "Commercial"],
       "links": [],
       "details": [
         {
           "heading": "My Role",
-          "body": "I worked on improving the interface and overall usability, while also designing and shaping new features as the product evolved. Since it was a relatively new application, I spent a lot of time defining workflows, creating new functionality, and helping establish a clear and consistent foundation. I worked closely with developers and product stakeholders to ensure the solutions were practical and aligned with real user needs."
+          "body": "Improved the interface and usability while also designing new features as the product grew. Since it was relatively new, a lot of my time went into figuring out workflows, building features, and establishing a solid foundation. I worked closely with developers and product stakeholders to make sure solutions actually worked for people."
         },
         {
           "heading": "The Challenge",
-          "body": "The system was used by teams across different industries, with editorial media as a major user group. It needed to be simple and intuitive, while still supporting complex workflows and large volumes of content. At the same time, many core features were still being defined, which required balancing speed, clarity, and long-term scalability."
+          "body": "The system needed to work for teams in different industries, with editorial being the main group. It had to be straightforward while still supporting complex workflows and huge volumes of content. The tricky part was balancing speed and clarity with long-term scalability while many core features were still being defined."
         },
         {
           "heading": "Results",
-          "body": "The work helped shape the product into a more complete and reliable platform. New features made it more useful in daily workflows, and improvements to the interface made it easier to learn and use. It also established a stronger and more consistent foundation, making future development faster and more predictable."
+          "body": "The product became more complete and reliable. New features made it more useful for everyday work, and a better interface made it easier to learn. It also gave the platform a stronger foundation, making future development faster and more predictable."
         }
       ]
     },
@@ -120,21 +120,21 @@
       "year": 2021,
       "image": "assets/img/ava01.jpg",
       "gallery": ["assets/img/ava01.jpg"],
-      "description": "A refreshed brand and website that highlights the real estate agency’s strengths and presents it in a clear, modern way.",
+      "description": "A website refresh that gives this real estate agency a stronger, more modern presence. Shows off their properties and services in a way that actually feels current.",
       "tags": ["Real estate", "Industry", "Tenant services"],
       "links": [],
       "details": [
         {
           "heading": "My Role",
-          "body": "I designed the website and helped translate the refreshed brand into a clear and modern digital experience. This included shaping the structure, designing key pages, and making sure the visual direction reflected the agency’s identity. I worked closely with stakeholders to align the site with their goals and present the agency in a stronger way."
+          "body": "Designed the website and made sure the refreshed brand translated into a modern digital experience. Figured out the structure, designed the key pages, and made sure the visual direction matched their identity. Worked with stakeholders to align everything with their goals."
         },
         {
           "heading": "The Challenge",
-          "body": "The existing website didn’t reflect the quality of the brand or the properties they worked with. Information was hard to navigate and the overall experience felt dated. The challenge was to create a more modern and credible presence, while making it easy for visitors to understand services and take the next step."
+          "body": "The old website didn't match the quality of what they do or the properties they work with. Information was scattered, navigation was confusing, and it all felt outdated. The task was to modernize it while making it actually easy for visitors to understand what they offer and take the next step."
         },
         {
           "heading": "Results",
-          "body": "The new website gave the agency a stronger and more professional digital presence. It presented information in a clearer way and made it easier to understand what the agency offers. The result was a more confident brand presentation that better supports attracting new clients."
+          "body": "They got a stronger, more professional digital presence. Information is clearer and easier to find. It presents the agency with more confidence and helps attract new clients."
         }
       ]
     },
@@ -144,21 +144,21 @@
       "year": 2021,
       "image": "assets/img/cp01.jpg",
       "gallery": ["assets/img/cp01.jpg"],
-      "description": "A membership portal designed to manage and strengthen the relationship between the organization and its members.",
+      "description": "A membership portal that helps a patient organization connect with and support its members. Made it clearer and more accessible.",
       "tags": ["Patient organization", "Member support"],
       "links": [],
       "details": [
         {
           "heading": "My Role",
-          "body": "I redesigned the existing membership portal with a focus on making it easier and more accessible for members to use. I improved the layout, navigation, and visual clarity, and adapted the design to work within the constraints of the existing system. The goal was to create a calmer, clearer experience that better reflected the organization and supported its members."
+          "body": "Redesigned the existing portal with a focus on making it easier and more accessible for members. Improved the layout, navigation, and visual clarity, working within the constraints of what was already there. The goal was a calmer, clearer experience that better supported members."
         },
         {
           "heading": "The Challenge",
-          "body": "The portal was used by a patient organization, which made accessibility especially important. Members have different needs and levels of digital experience, and the existing solution was difficult to navigate and understand. Since the system itself could not be rebuilt, the improvements had to come through better structure, clearer design, and more thoughtful use of the interface."
+          "body": "Since it's used by a patient organization, accessibility was critical. Members have different tech comfort levels, and the old design was hard to navigate. The platform itself couldn't be rebuilt, so improvements had to come through better structure, clearer design, and smarter interface choices."
         },
         {
           "heading": "Results",
-          "body": "The redesign made the portal easier to use and more accessible for members. Information became easier to find, and the overall experience felt more clear and approachable. It helped make the portal a more useful and inclusive tool, and better supported the connection between the organization and its members."
+          "body": "The redesign made the portal easier and more accessible. Information is easier to find and the whole experience feels calmer and more approachable. It became a more useful tool that actually strengthened the connection between the organization and its members."
         }
       ]
     },
@@ -168,21 +168,21 @@
       "year": 2020,
       "image": "assets/img/dan01.jpg",
       "gallery": ["assets/img/dan01.jpg"],
-      "description": "A website for a folk high school designed to attract new students by highlighting classes, trips, and student life, with clear, accessible information and a strong focus on driving applications.",
+      "description": "A website for a folk high school designed to attract students. It showcases classes, trips, and student life in a way that's inviting and helps people take the next step.",
       "tags": ["Education", "Convertion"],
       "links": [],
       "details": [
         {
           "heading": "My Role",
-          "body": "I designed the website from the ground up, focusing on how to present the school in a clear and engaging way. I defined the structure, designed the key pages, and worked with content and visuals to highlight student life, classes, and trips. The goal was to create a site that felt honest, welcoming, and easy to navigate."
+          "body": "Designed the entire website from scratch, focusing on how to present the school in a way that actually appeals to potential students. Figured out the structure, designed the key pages, and worked with content and visuals to show what student life is really like. The goal was to make it feel honest and welcoming."
         },
         {
           "heading": "The Challenge",
-          "body": "The website needed to speak directly to prospective students and help them understand what the school offers. A lot of information had to be presented, but without making it feel heavy or confusing. It was also important to guide users naturally toward applying, without forcing it."
+          "body": "The site needed to speak directly to prospective students and help them understand what the school offers. There's a lot of information to share, but it can't feel overwhelming. It also needed to naturally guide people toward applying without being pushy."
         },
         {
           "heading": "Results",
-          "body": "The new website made it easier to explore the school and get a real sense of the experience. Information became clearer, and the structure helped users move naturally toward applying. It gave the school a stronger digital presence and a better tool for attracting new students."
+          "body": "The new site made it much easier to explore the school and get a real sense of the experience. Information is clearer and the structure guides visitors naturally toward applying. It gave the school a stronger digital presence and a better tool for attracting new students."
         }
       ]
     },
@@ -192,21 +192,21 @@
       "year": 2019,
       "image": "assets/img/dipr01.jpg",
       "gallery": ["assets/img/dipr01.jpg"],
-      "description": "An alternative to traditional local news, focused on in-depth journalism, a calmer pace, and a thoughtful reading experience. Built to foster a community, not just an audience. Recognized as a pioneer in its field.",
+      "description": "An alternative to traditional local news. It's about deeper journalism, taking your time, and building a real community instead of just an audience. It's become known for pioneering this approach.",
       "tags": ["Editorial", "Publishing", "Convertion"],
       "links": [],
       "details": [
         {
           "heading": "My Role",
-          "body": "I worked on both the branding and the design of the platform, shaping its identity and the reading experience from the ground up. This included defining the visual direction, designing key parts of the application, and ensuring the interface supported the editorial vision. My focus was on creating a calm, focused experience that put the content first."
+          "body": "Worked on both the brand and the platform design, shaping its identity and reading experience from the ground up. Defined the visual direction, designed key parts of the application, and made sure the interface supported the editorial vision. The focus was creating a calm, centered experience where content takes center stage."
         },
         {
           "heading": "The Challenge",
-          "body": "The platform aimed to challenge traditional local news by slowing things down and focusing on quality over quantity. The design needed to reflect this approach and feel different from typical news sites, which are often crowded and driven by constant updates. It was important to create a reading experience that felt trustworthy, thoughtful, and worth spending time with."
+          "body": "The goal was to challenge traditional news by slowing things down and focusing on quality over volume. The design needed to feel different from typical news sites—which are often cluttered and chasing the latest updates. It had to feel trustworthy, thoughtful, and worth spending time with."
         },
         {
           "heading": "Results",
-          "body": "The result was a clear and distinct platform that supported long-form journalism and encouraged deeper engagement. The branding and interface helped communicate its identity and made the experience feel more focused and intentional. It contributed to establishing the platform as a credible and recognizable alternative in its field."
+          "body": "The result was a distinctive platform that supports long-form journalism and encourages deeper engagement. The branding and interface communicate its identity clearly and make the experience feel intentional. It helped establish the platform as a credible and recognizable alternative in its field."
         }
       ]
     },
@@ -216,21 +216,21 @@
       "year": 2018,
       "image": "assets/img/mun01.jpg",
       "gallery": ["assets/img/mun01.jpg"],
-      "description": "A marketplace and payment solution that helps game servers earn from active players through in-game purchases of goods and services, with a simple and intuitive experience throughout.",
+      "description": "A marketplace and payment solution for game servers. Makes it easy for servers to earn money from their players, and simple for players to buy stuff in-game without friction.",
       "tags": ["B2C SaaS", "Gaming", "Convertion"],
       "links": [],
       "details": [
         {
           "heading": "My Role",
-          "body": "I worked on both the branding and the design of the platform, defining its visual identity and core user experience. This included designing key flows for browsing and purchasing digital goods, and making sure the platform felt simple and clear to use. Early in the project, I facilitated a two-week Google Design Sprint to explore and validate concepts, and tested prototypes with students from a local game development school to ground decisions in real user feedback."
+          "body": "Worked on the brand and the platform design, figuring out its visual identity and core user experience. Designed key flows for browsing and buying digital goods. Early on, I ran a two-week Google Design Sprint to explore ideas and validate them, then tested prototypes with students from a local game dev school to make sure decisions were grounded in real user feedback."
         },
         {
           "heading": "The Challenge",
-          "body": "The platform needed to make it easy for game servers to sell digital content, while keeping the experience intuitive for players. Payments and account-related actions can easily become confusing or feel unsafe, so clarity and trust were essential. It also needed a strong and credible identity to stand out in a space often dominated by fragmented and inconsistent tools."
+          "body": "The platform had to make it easy for server owners to sell content while keeping things intuitive for players. Payments and accounts can quickly become confusing, so clarity and trust were everything. It also needed a strong identity to stand out in a space often filled with fragmented, inconsistent tools."
         },
         {
           "heading": "Results",
-          "body": "The result was a clear and easy-to-use platform with a strong and consistent identity. Server owners could manage and sell digital goods more easily, and players could complete purchases without unnecessary friction. Early testing helped catch usability issues and ensured the platform was built around real user needs from the start."
+          "body": "The result was a clean, easy-to-use platform with a strong and consistent identity. Server owners could manage and sell digital goods more easily, and players could complete purchases without extra friction. Early testing helped catch issues and made sure the platform was built on what users actually needed."
         }
       ]
     },
@@ -240,14 +240,24 @@
       "year": 2017,
       "image": "assets/img/ev01.jpg",
       "gallery": ["assets/img/ev01.jpg"],
-      "description": "A digital design and development studio delivering high-end services for some of Norway’s leading brands.",
+      "description": "A digital design and development studio that delivers high-end work for some of Norway's biggest brands. This is their own branding and website.",
       "tags": ["Consultancy", "Development", "Design"],
       "links": [],
       "details": [
         {
           "heading": "My Role",
-          "body": "I designed the visual identity and website, giving the studio a clearer and more distinctive presence. This included creating a flexible visual system and designing pages that showcased their work in a confident and engaging way. I focused on balancing professionalism with personality, so the site felt sharp without feeling generic."
+          "body": "Designed their visual identity and website, giving the studio a clearer and more distinctive presence. Created a flexible visual system and designed pages that showcase their work in a confident way. The balance was between being professional and having personality—sharp without feeling generic."
         },
+        {
+          "heading": "The Challenge",
+          "body": "They do high-quality work for major brands, but their own brand didn't reflect that. The challenge was creating something credible and polished while still showing character. In a sea of agencies that all look and sound the same, it needed to stand out."
+        },
+        {
+          "heading": "Results",
+          "body": "They got a more confident and recognizable brand, backed by a website that felt modern and expressive. It helped communicate their level of quality more clearly and made their work feel more compelling. The new identity gave them a stronger foundation to grow from."
+        }
+      ]
+    },
         {
           "heading": "The Challenge",
           "body": "The studio delivered high-quality work for major brands, but their own brand didn’t reflect that level of craft. The challenge was to create something that felt credible and polished, while still showing character. It needed to stand out in a crowded space of agencies that all tend to look and sound the same."
@@ -264,21 +274,21 @@
       "year": 2015,
       "image": "assets/img/so01.jpg",
       "gallery": ["assets/img/so01.jpg"],
-      "description": "A collection of co-ownership homes in newly developed buildings, located in prime areas of Oslo near the fjord and city center.",
+      "description": "A housing project in prime Oslo locations. This is the branding and website to help residents and potential buyers understand the project.",
       "tags": ["Co-ownership", "Real estate"],
       "links": [],
       "details": [
         {
           "heading": "My Role",
-          "body": "I worked on the branding and designed the website, focusing on presenting information in a clear and structured way. This included defining the visual direction, organizing content, and designing pages that made it easier for residents and potential buyers to understand the project. My focus was on clarity, readability, and reducing unnecessary complexity."
+          "body": "Worked on the branding and designed the website, focusing on making information clear and organized. Figured out the visual direction, structured the content, and designed pages that made it easy for residents and buyers to understand the project. The goal was clarity, readability, and cutting out the unnecessary complexity."
         },
         {
           "heading": "The Challenge",
-          "body": "Housing projects like this involve a lot of practical information, and it can quickly become overwhelming. The existing material was difficult to navigate and made it harder for residents to find what they needed. The challenge was to simplify the experience and present information in a way that felt accessible and easy to understand."
+          "body": "Housing projects come with a lot of practical information, and it's easy for it to become overwhelming. The existing materials were hard to navigate and people struggled to find what they needed. The challenge was to simplify things and present information in a way that actually makes sense."
         },
         {
           "heading": "Results",
-          "body": "The result was a clearer and more approachable website that made it easier to find and understand relevant information. Residents and buyers could navigate the content more easily and get a better overview of the project. The improved structure and presentation made the information more useful and easier to act on."
+          "body": "Residents and buyers can now easily find the information they need. The site presents the project clearly and makes it easier to understand what's being offered. It also strengthened the project's brand presence and credibility."
         }
       ]
     }
