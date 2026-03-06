@@ -26,7 +26,6 @@
   const modalEl        = $("#modal");
   const modalClose     = $("#modalClose");
   const modalImage     = $("#modalImage");
-  const modalLeft      = $("#modal").querySelector(".modal__left");
   const modalThumbs    = $("#modalThumbs");
   const modalCategory  = $("#modalCategory");
   const modalYear      = $("#modalYear");
@@ -317,55 +316,8 @@
       modalImage.src = p.image;
     }
 
-    // Thumbnails
-    var gallery = p.gallery || [];
-    if (gallery.length > 0) {
-      modalThumbs.hidden = false;
-      modalThumbs.innerHTML = gallery
-        .map(function (src, i) {
-          var activeClass = i === 0 ? " is-active" : "";
-          return (
-            '<button class="modal__thumb' + activeClass + '" data-src="' + src + '" aria-label="View image ' + (i + 1) + '">' +
-            '  <img src="' + src + '" alt="" />' +
-            '</button>'
-          );
-        })
-        .join("");
-
-      modalThumbs.querySelectorAll(".modal__thumb").forEach(function (thumb) {
-        thumb.addEventListener("click", function () {
-          var src = thumb.dataset.src;
-          // Update active state
-          modalThumbs.querySelectorAll(".modal__thumb").forEach(function (t) {
-            t.classList.remove("is-active");
-          });
-          thumb.classList.add("is-active");
-          // Swap main image with shimmer
-          modalImageWrap.classList.remove("is-loaded");
-          var resolved = new URL(src, location.href).href;
-          if (modalImage.src === resolved && modalImage.complete && modalImage.naturalWidth > 0) {
-            modalImageWrap.classList.add("is-loaded");
-          } else {
-            modalImage.onload = function () {
-              modalImageWrap.classList.add("is-loaded");
-              modalImage.onload = null;
-            };
-            modalImage.onerror = function () {
-              modalImageWrap.classList.add("is-loaded");
-              modalImage.onerror = null;
-            };
-            modalImage.src = src;
-          }
-        });
-      });
-
-      // Double the height when gallery is present
-      modalLeft.classList.add("has-gallery");
-    } else {
-      modalThumbs.hidden = true;
-      modalThumbs.innerHTML = "";
-      modalLeft.classList.remove("has-gallery");
-    }
+    // Display main image
+    modalImage.src = p.gallery[0] || "";
 
     modalCategory.textContent = (p.category || []).join(" • ");
     modalYear.textContent = p.year;
